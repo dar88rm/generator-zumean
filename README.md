@@ -2,7 +2,6 @@
 
 > An awesome [Yeoman](http://yeoman.io) generator for MEAN stack applications. Start coding in a very short time!
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/dariodesanctis)
 
 ### Frameworks Used:
 - [AngularJS](https://angular.io/) (with ui.router, ngResource)
