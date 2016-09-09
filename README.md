@@ -60,7 +60,7 @@ Enjoy!
 If you find this generator useful and would like to support it, you can do so simply by clicking the button below and donating whatever you like.
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/dariodesanctis)
-[![Donate](https://img.shields.io/badge/donate-Bitcoin-blue.svg)](bitcoin:37dcoTE2k9YL7twemzP1vddcTbTpLBKhvG "bitcoin:37dcoTE2k9YL7twemzP1vddcTbTpLBKhvG")
+[![Donate](https://img.shields.io/badge/donate-Bitcoin-blue.svg)](# "bitcoin:37dcoTE2k9YL7twemzP1vddcTbTpLBKhvG")
 
 ## Getting To Know Yeoman
 
