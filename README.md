@@ -13,13 +13,22 @@
 - [Gulp](http://gulpjs.com/) (with gulp-minify-css, gulp-uglify, gulp-imagemin, gulp-jshint, etc...)
 - [Mongoose](http://mongoosejs.com/)
 
-## Prerequisites (if you want generate a Node.js/MongoDB back-end)
+## Prerequisites
+
+First, install [Yeoman](http://yeoman.io) and generator-zumean using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+
+Install [Gulp](http://gulpjs.com/)
+
+
+Install [Bower](https://bower.io/)
+
+If you want generate a Node.js/MongoDB back-end:
 
 Install [Mongo DB](www.mongodb.com) on your machine and start it (mongod). [Installation guides](http://docs.mongodb.org/manual/installation/)
 
+
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-zumean using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
