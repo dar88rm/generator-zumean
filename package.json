@@ -1,10 +1,10 @@
 {
   "name": "generator-zumean",
-  "version": "0.0.0",
-  "description": "An awesome Yeoman generator for MEAN applications.",
+  "version": "1.0.0",
+  "description": "This generator enables you to quickly and easily create awesome MEAN applications",
   "homepage": "https://github.com/dar88rm/generator-zumean/",
   "author": {
-    "name": "dario desanctis",
+    "name": "dario de sanctis",
     "email": "",
     "url": "https://twitter.com/Dario_DeSanctis"
   },
