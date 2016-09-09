@@ -1,6 +1,6 @@
 # generator-zumean
 
-> An awesome [Yeoman](http://yeoman.io) generator for MEAN stack applications. Start coding in a very short time!
+> A clever [Yeoman](http://yeoman.io) generator for MEAN stack applications. Start coding in a very short time!
 
 
 ### Frameworks Used:
