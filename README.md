@@ -1,7 +1,8 @@
 # generator-zumean
 
 > An awesome [Yeoman](http://yeoman.io) generator for MEAN stack applications. Start coding in a very short time!
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](paypal.me/dariodesanctis)
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/dariodesanctis)
 
 ### Frameworks Used:
 - [AngularJS](https://angular.io/) (with ui.router, ngResource)
@@ -44,10 +45,12 @@ npm start
 ```
 
 Your website will be waiting for you at http://localhost:3000/
+
 Enjoy!
 
 If you find this generator useful and would like to support it, you can do so simply by clicking the button below and donating whatever you like.
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](paypal.me/dariodesanctis)
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/dariodesanctis)
 
 ## Getting To Know Yeoman
 
