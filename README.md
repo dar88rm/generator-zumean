@@ -19,8 +19,9 @@ First, install [Yeoman](http://yeoman.io) and generator-zumean using [npm](https
 
 Install [Gulp](http://gulpjs.com/)
 
-
 Install [Bower](https://bower.io/)
+
+Install[Git](https://git-scm.com/)
 
 If you want generate a Node.js/MongoDB back-end:
 
