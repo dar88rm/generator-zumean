@@ -1,0 +1,7 @@
+var mongoose = require('mongoose');
+
+var Poi = new mongoose.Schema({
+  name: String
+}, { collection: 'poi' });
+
+mongoose.model('Poi', Poi);
