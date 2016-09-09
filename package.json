@@ -1,7 +1,7 @@
 {
   "name": "generator-zumean",
   "version": "1.0.0",
-  "description": "This generator enables you to quickly and easily create awesome MEAN applications",
+  "description": "This generator enables you to quickly and easily create awesome MEAN applications using MongoDB, Express, Angular, and Node",
   "homepage": "https://github.com/dar88rm/generator-zumean/",
   "author": {
     "name": "dario de sanctis",
