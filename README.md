@@ -22,7 +22,7 @@ Install [Bower](https://bower.io/)
 
 Install [Git](https://git-scm.com/)
 
-If you want generate a Node.js/MongoDB back-end:
+If you want to generate a Node.js/MongoDB back-end:
 
 Install [Mongo DB](www.mongodb.com) on your machine and start it (mongod). [Installation guides](http://docs.mongodb.org/manual/installation/)
 
@@ -35,7 +35,7 @@ npm install -g yo
 npm install -g generator-zumean
 ```
 
-Then create an empty folder and enter in it. Now generate your project:
+Then create an empty folder and go in it. Now generate your project:
 
 ```bash
 yo zumean
