@@ -35,7 +35,7 @@ npm install -g yo
 npm install -g generator-zumean
 ```
 
-Then create an empty folder and go in it. Now generate your project:
+Then create an empty folder and go in it. Now generate your project. Run zumean and answer a few questions.
 
 ```bash
 yo zumean
