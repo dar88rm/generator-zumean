@@ -24,7 +24,8 @@ Install [Bower](https://bower.io/)
 
 Install [Git](https://git-scm.com/)
 
-If you want to generate a Node.js/MongoDB back-end install [Mongo DB](www.mongodb.com) on your machine and start it (mongod). [Installation guides](http://docs.mongodb.org/manual/installation/)
+If you want to generate a Node.js/MongoDB back-end install [Mongo DB](www.mongodb.com) on your machine and start it (mongod).
+[Installation guides](http://docs.mongodb.org/manual/installation/)
 
 If you want to use [Sails](http://sailsjs.org/) Framework [install it](http://sailsjs.org/get-started).
 
