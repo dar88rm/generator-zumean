@@ -2,15 +2,17 @@
 
 > A clever [Yeoman](http://yeoman.io) generator for MEAN stack applications. Start coding in a very short time!
 
-
 ### Frameworks Used:
-- [AngularJS](https://angular.io/) (with ui.router, ngResource)
+- [AngularJS](https://angular.io/)
 - [Bootstrap](http://getbootstrap.com/)
 - [Node.js](https://nodejs.org/)
 - [Express.js](http://expressjs.com/)
-- [Bower](https://bower.io/)
-- [Gulp](http://gulpjs.com/) (with gulp-minify-css, gulp-uglify, gulp-imagemin, gulp-jshint, etc...)
+- [Sails](http://sailsjs.org/)
 - [Mongoose](http://mongoosejs.com/)
+- [Bower](https://bower.io/)
+- [Gulp](http://gulpjs.com/)
+- [Grunt](http://gruntjs.com/)
+
 
 ## Prerequisites
 
@@ -25,6 +27,8 @@ Install [Git](https://git-scm.com/)
 If you want to generate a Node.js/MongoDB back-end:
 
 Install [Mongo DB](www.mongodb.com) on your machine and start it (mongod). [Installation guides](http://docs.mongodb.org/manual/installation/)
+
+If you want to use [Sails](http://sailsjs.org/) Framework [install it](http://sailsjs.org/get-started).
 
 
 ## Installation
@@ -46,7 +50,17 @@ Now, go in FE directory and launch:
 gulp
 ```
 
-In 'dist' folder you will find your webapp ready to deploy. Copy all the content in dist folder to BE/public/ and from the directory BE launch:
+In 'dist' folder you will find your webapp ready to deploy. 
+
+###### With Sails.js
+Copy all the content in dist folder to BE/assets/ and from the directory BE launch:
+```bash
+npm install
+sails lift
+```
+
+###### Without Sails.js
+Copy all the content in dist folder to BE/public/ and from the directory BE launch:
 ```bash
 npm install
 gulp
@@ -60,7 +74,7 @@ Enjoy!
 If you find this generator useful and would like to support it, you can do so simply by clicking the button below and donating whatever you like.
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/dariodesanctis)
-[![Donate](https://img.shields.io/badge/donate-Bitcoin-blue.svg)](# "bitcoin:37dcoTE2k9YL7twemzP1vddcTbTpLBKhvG")
+[![Donate](https://img.shields.io/badge/Donate-Bitcoin-blue.svg)](# "bitcoin:37dcoTE2k9YL7twemzP1vddcTbTpLBKhvG")
 
 ## Getting To Know Yeoman
 
@@ -73,8 +87,7 @@ If you find this generator useful and would like to support it, you can do so si
  
 ## What's next?
 - [Angular2](https://angularjs.org/)
-- [Passport](http://passportjs.org/)
-- [Cluster](https://nodejs.org/api/cluster.html#cluster_cluster)
+
 
 ## License
 
