@@ -33,14 +33,19 @@ module.exports = yeoman.Base.extend({
       default: true
     },{
       type: 'confirm',
-      name: 'useNode',
-      message: 'Would you like to use Node.js and MongoDB?',
+      name: 'createBe',
+      message: 'Would you like to create a node.js back-end connected with MongoDB?',
       default: true
     },{
-        type    : 'input',
-        name    : 'db_name',
-        message : 'If you decided to have a back-end, enter the name of your DB: (otherwise press enter)',
-        default : 'test'
+      type: 'confirm',
+      name: 'useSails',
+      message: 'Would you like to use Sails.js framework?',
+      default: true
+    },{
+      type    : 'input',
+      name    : 'db_name',
+      message : 'Enter the name of your DB. (if any, otherwise press enter)',
+      default : 'test'
     }]).then(function (answers) {
       this.project_name = answers.project_name;
       //this.log('app name', this.project_name);
@@ -50,8 +55,10 @@ module.exports = yeoman.Base.extend({
       //this.log('desc', this.desc);
       this.useAngular = answers.useAngularJS
       //this.log('useAngular', this.useAngular);
-      this.useNode = answers.useNode
-      //this.log('useNode', this.useNode);
+      this.createBe = answers.createBe
+      //this.log('createBe', this.createBe);
+      this.useSails = answers.useSails
+      //this.log('useSails', this.useSails);
       this.db_name = answers.db_name
       //this.log('db_name', this.db_name);
     }.bind(this));
@@ -85,7 +92,7 @@ module.exports = yeoman.Base.extend({
           { project_name: this.project_name }
         );
     }
-    if(this.useNode){
+    if(this.createBe && !this.useSails){
         this.fs.copy(
           this.templatePath('BE/'),
           this.destinationPath('BE/')
@@ -118,6 +125,23 @@ module.exports = yeoman.Base.extend({
             );
         }
         
+    } else if (this.createBe && this.useSails){
+        this.fs.copy(
+          this.templatePath('BE_Sails/'),
+          this.destinationPath('BE/')
+        );
+        this.fs.copyTpl(
+          this.templatePath('BE_Sails/package.json'),
+          this.destinationPath('BE/package.json'),
+          { project_name: this.project_name,
+            desc: this.desc,
+            company: this.company}
+        );
+        this.fs.copyTpl(
+          this.templatePath('BE_Sails/config/connections.js'),
+          this.destinationPath('BE/config/connections.js'),
+          { db_name: this.db_name}
+        );
     }
   },
 
