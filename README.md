@@ -7,7 +7,7 @@
 - [Bootstrap](http://getbootstrap.com/)
 - [Node.js](https://nodejs.org/)
 - [Express.js](http://expressjs.com/)
-- [Sails](http://sailsjs.org/)
+- [Sails.js](http://sailsjs.org/)
 - [Mongoose](http://mongoosejs.com/)
 - [Bower](https://bower.io/)
 - [Gulp](http://gulpjs.com/)
