@@ -90,6 +90,6 @@ If you find this generator useful and would like to support it, you can do so si
 
 ## License
 
-MIT © [Dario_DeSanctis](https://github.com/dar88rm)
+MIT © [Dario De Sanctis](https://github.com/dar88rm)
 
 
