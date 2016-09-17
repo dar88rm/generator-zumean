@@ -7,7 +7,7 @@ module.exports = yeoman.Base.extend({
   prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to ' + chalk.red('generator-zumean') + ' generator!'
+      'Welcome to ' + chalk.red('zumean') + ' generator!'
     ));
     this.log('This generator will help you to scaffolding a great MEAN application. You just have to answer a few questions!');
       
